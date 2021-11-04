@@ -27,6 +27,6 @@ public class Ticket implements Runnable{
 
         new Thread(ticket,"小明").start();
         new Thread(ticket,"小丽").start();
-        new Thread(ticket,"小红033").start();
+        new Thread(ticket,"小红[033]").start();
     }
 }
